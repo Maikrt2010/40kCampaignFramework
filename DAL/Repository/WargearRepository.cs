@@ -6,12 +6,12 @@ namespace DAL.Repository
 {
     public class WargearRepository : IWargearRepository
     {
-        public void CreateWargear(string wargearName, Faction faction, List<WargearCategory> wargearCategories)
+        public void CreateWargear(string wargearName, FactionDTO faction, List<WargearCategoryDTO> wargearCategories)
         {
             throw new System.NotImplementedException();
         }
 
-        public List<Wargear> GetAllWargear()
+        public List<WargearDTO> GetAllWargear()
         {
             throw new System.NotImplementedException();
         }

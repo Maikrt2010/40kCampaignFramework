@@ -6,9 +6,9 @@ namespace DAL.Interfaces
 {
     public interface IWargearRepository
     {
-        void CreateWargear(string wargearName, Faction faction, List<WargearCategory> wargearCategories);
+        void CreateWargear(string wargearName, FactionDTO faction, List<WargearCategoryDTO> wargearCategories);
 
-        List<Wargear> GetAllWargear();
+        List<WargearDTO> GetAllWargear();
 
     }
 }

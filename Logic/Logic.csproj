@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FactionCollection.cs" />
+    <Compile Include="WeaponCategoryCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WargearInventory.cs" />
     <Compile Include="WargearLogic.cs" />
@@ -50,9 +52,9 @@
       <Project>{B5573C80-4573-4EA4-856A-2B46788A4278}</Project>
       <Name>DAL.Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Domain\Domain.csproj">
+    <ProjectReference Include="..\Domain\DTO.csproj">
       <Project>{E0DF9760-51F0-4A91-8A39-43B13ACB16ED}</Project>
-      <Name>Domain</Name>
+      <Name>DTO</Name>
     </ProjectReference>
     <ProjectReference Include="..\Logic.Interfaces\Logic.Interfaces.csproj">
       <Project>{C1C48C9C-DC2B-459A-8765-F510FDD52B4E}</Project>

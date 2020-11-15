@@ -1,10 +1,10 @@
 ﻿namespace Domain
 {
-    public class WargearCategory
+    public class WargearCategoryDTO
     {
         public string WargearCategoryName { get; private set; }
 
-        public WargearCategory(string wargearCategoryName)
+        public WargearCategoryDTO(string wargearCategoryName)
         {
             WargearCategoryName = wargearCategoryName;
         }

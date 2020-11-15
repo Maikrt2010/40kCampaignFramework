@@ -5,6 +5,6 @@ namespace DAL.MemeryContextInterfaces
 {
     public interface IWargearMemoryContext
     {
-        void createwargear(string wargearName, Faction faction, List<WargearCategory> wargearCategories);
+        void createwargear(string wargearName, FactionDTO faction, List<WargearCategoryDTO> wargearCategories);
     }
 }

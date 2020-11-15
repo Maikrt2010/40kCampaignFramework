@@ -6,8 +6,8 @@ namespace Logic.Interfaces
 {
     public interface IWargearInventory
     {
-        void CreateWargear(string wargearname, Faction faction, List<WargearCategory> wargearCategories);
+        void CreateWargear(string wargearname, FactionDTO faction, List<WargearCategoryDTO> wargearCategories);
 
-        List<Wargear> GetAllWargears();
+        List<WargearDTO> GetAllWargears();
     }
 }

@@ -1,10 +1,10 @@
 ﻿namespace Domain
 {
-    public class Faction
+    public class FactionDTO
     {
         public string FactionName { get; private set; }
 
-        public Faction(string factionName)
+        public FactionDTO(string factionName)
         {
             FactionName = factionName;
         }

@@ -58,9 +58,9 @@
       <Project>{B5573C80-4573-4EA4-856A-2B46788A4278}</Project>
       <Name>DAL.Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Domain\Domain.csproj">
+    <ProjectReference Include="..\Domain\DTO.csproj">
       <Project>{E0DF9760-51F0-4A91-8A39-43B13ACB16ED}</Project>
-      <Name>Domain</Name>
+      <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

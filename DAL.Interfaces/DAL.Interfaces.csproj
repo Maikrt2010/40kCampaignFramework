@@ -41,13 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IFactionRepository.cs" />
     <Compile Include="IWargearRepository.cs" />
+    <Compile Include="IWeaponCategoryRepoitory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Domain\Domain.csproj">
+    <ProjectReference Include="..\Domain\DTO.csproj">
       <Project>{E0DF9760-51F0-4A91-8A39-43B13ACB16ED}</Project>
-      <Name>Domain</Name>
+      <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

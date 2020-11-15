@@ -1,7 +1,7 @@
 ﻿namespace DAL.Interfaces
 {
-    public interface IWeaponCategoryRepoitory
+    public interface IWeaponCategoryRepository
     {
-        
+        void createWeaponCategory(string weaponCategoryName);
     }
 }

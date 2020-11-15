@@ -2,6 +2,6 @@
 {
     public interface IFactionMemoryContext
     {
-        void createwargear(string FactionName);
+        void createFaction(string FactionName);
     }
 }

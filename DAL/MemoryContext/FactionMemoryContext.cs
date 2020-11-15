@@ -6,7 +6,7 @@ namespace DAL.MemoryContext
 {
     public class FactionMemoryContext : Databasemmsql , IFactionMemoryContext
     {
-        public void createwargear(string FactionName)
+        public void createFaction(string FactionName)
         {
             using (SqlConnection conn = new SqlConnection(connenctionString))
             {
@@ -14,7 +14,7 @@ namespace DAL.MemoryContext
                 using (SqlCommand command = new SqlCommand("INSERT INTO [dbo.Faction]([FactionName]) VALUES (@FactionName)", conn))
                 {
                     command.Parameters.AddWithValue("@FactionName", FactionName);
-                    co
+                    command.ExecuteNonQueryAsync();
                     conn.Close();
                 }
             }

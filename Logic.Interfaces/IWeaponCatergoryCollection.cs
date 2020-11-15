@@ -1,7 +1,7 @@
 ﻿namespace Logic.Interfaces
 {
-    public class IWeaponCatergoryCollection
+    public interface IWeaponCatergoryCollection
     {
-        
+        void createWeaponCatergory(string weaponCatergoryName);
     }
 }

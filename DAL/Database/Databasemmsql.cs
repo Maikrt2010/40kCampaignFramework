@@ -2,8 +2,8 @@
 {
     public class Databasemmsql
     {
-        public static string connenctionString = "Server=mssql.fhict.local;Database=dbi364823_rockstar;User Id=dbi364823;Password=NooCyt2005";
+        public static string connenctionString = "Server=mssql.fhict.local;Database=dbi364823_40k;User Id=dbi364823;Password=NooCyt2094";
 
-        //TODO; update string
+
     }
 }

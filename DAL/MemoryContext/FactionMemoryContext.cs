@@ -1,6 +1,8 @@
-﻿using System.Data.SqlClient;
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
 using DAL.Database;
 using DAL.MemeryContextInterfaces;
+using Domain;
 
 namespace DAL.MemoryContext
 {
@@ -18,6 +20,17 @@ namespace DAL.MemoryContext
                     conn.Close();
                 }
             }
+        }
+
+        public void UpdateFaction(FactionDTO wargearCategory)
+        {
+            //TODO
+            throw new System.NotImplementedException();
+        }
+
+        public List<FactionDTO> GetAllFaction()
+        {
+
         }
     }
 }

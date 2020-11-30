@@ -4,3 +4,6 @@ D:\School\Fresh Start\Program\40kCampaignFramework\Logic.Interfaces\obj\Debug\Lo
 D:\School\Fresh Start\Program\40kCampaignFramework\Logic.Interfaces\obj\Debug\Logic.Interfaces.csproj.CoreCompileInputs.cache
 D:\School\Fresh Start\Program\40kCampaignFramework\Logic.Interfaces\obj\Debug\Logic.Interfaces.dll
 D:\School\Fresh Start\Program\40kCampaignFramework\Logic.Interfaces\obj\Debug\Logic.Interfaces.pdb
+D:\School\Fresh Start\Program\40kCampaignFramework\Logic.Interfaces\bin\Debug\Domain.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\Logic.Interfaces\bin\Debug\Domain.pdb
+D:\School\Fresh Start\Program\40kCampaignFramework\Logic.Interfaces\obj\Debug\Logic.Interfaces.csproj.CopyComplete

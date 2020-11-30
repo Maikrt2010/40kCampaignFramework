@@ -7,7 +7,8 @@ namespace DAL.MemeryContextInterfaces
     {
         void createWeaponCategory(string weaponCategoryName);
 
-        void UpdateCategory(WargearCategoryDTO wargearCategory);
-        List<WargearCategoryDTO> GetAllWargearCategorys();
+        void UpdateCategory(WeaponCategoryDTO wargearCategory);
+        List<WeaponCategoryDTO> GetAllWeapomCategorys();
+        WeaponCategoryDTO GetWeaponCategoryName(string name);
     }
 }

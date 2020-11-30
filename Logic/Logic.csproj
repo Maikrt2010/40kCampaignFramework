@@ -42,10 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FactionCollection.cs" />
+    <Compile Include="FactionLogic.cs" />
     <Compile Include="WeaponCategoryCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WargearInventory.cs" />
     <Compile Include="WargearLogic.cs" />
+    <Compile Include="WeaponCategoryLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL.Interfaces\DAL.Interfaces.csproj">

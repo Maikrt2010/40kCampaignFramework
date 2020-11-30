@@ -1,0 +1,11 @@
+D:\School\Fresh Start\Program\40kCampaignFramework\DAL\bin\Debug\DAL.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\DAL\bin\Debug\DAL.pdb
+D:\School\Fresh Start\Program\40kCampaignFramework\DAL\bin\Debug\DAL.Interfaces.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\DAL\bin\Debug\Domain.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\DAL\bin\Debug\DAL.Interfaces.pdb
+D:\School\Fresh Start\Program\40kCampaignFramework\DAL\bin\Debug\Domain.pdb
+D:\School\Fresh Start\Program\40kCampaignFramework\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\School\Fresh Start\Program\40kCampaignFramework\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\School\Fresh Start\Program\40kCampaignFramework\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\School\Fresh Start\Program\40kCampaignFramework\DAL\obj\Debug\DAL.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\DAL\obj\Debug\DAL.pdb

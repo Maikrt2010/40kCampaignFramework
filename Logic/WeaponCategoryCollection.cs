@@ -1,8 +1,11 @@
-﻿using DAL.Interfaces;
+﻿using System.Collections.Generic;
+using DAL.Interfaces;
+using Domain;
+using Logic.Interfaces;
 
 namespace Logic
 {
-    public class WeaponCategoryCollection : IWeaponCategoryRepository
+    public class WeaponCategoryCollection : IWeaponCategoryCollection
     {
         private readonly IWeaponCategoryRepository WeaponCategoryRepository;
 
@@ -11,9 +14,22 @@ namespace Logic
             this.WeaponCategoryRepository = weaponCategoryRepository;
         }
 
-        public void createWeaponCategory(string weaponCategoryName)
+        public void CreateWeaponCatergory(string weaponCatergoryName)
         {
-            WeaponCategoryRepository.createWeaponCategory(weaponCategoryName);
+            WeaponCategoryRepository.createWeaponCategory(weaponCatergoryName);
+        }
+
+        public void UpdateWeaponCategoryName(string WeaponCategoryNameOld, string WeaponCategoryNameNew)
+        {
+            WeaponCategoryLogic weaponCategory = new WeaponCategoryLogic(WeaponCategoryRepository.GetWeaponCategoryName(WeaponCategoryNameOld));
+            weaponCategory.UpdateWeaponCategoryName(WeaponCategoryNameNew);
+            WeaponCategoryRepository.UpdateCategory(weaponCategory);
+        }
+
+
+        public List<WeaponCategoryDTO> GetAllWeaponCategorys()
+        {
+            return WeaponCategoryRepository.GetAllWeapomCategorys();
         }
     }
 }

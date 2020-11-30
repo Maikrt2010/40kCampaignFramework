@@ -5,9 +5,10 @@ namespace DAL.MemeryContextInterfaces
 {
     public interface IFactionMemoryContext
     {
-        void createFaction(string FactionName);
+        void createFaction(string factionName);
 
-        void UpdateFaction(FactionDTO wargearCategory);
-        List<FactionDTO> GetAllFaction();
+        void UpdateFaction(FactionDTO faction);
+        FactionDTO GetFactionName(string name);
+        IEnumerable<FactionDTO> GetAllFaction();
     }
 }

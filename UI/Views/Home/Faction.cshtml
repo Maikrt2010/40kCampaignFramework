@@ -1,0 +1,27 @@
+﻿@model FactionModel
+
+@{
+    ViewData["Title"] = "Faction";
+}
+
+
+<h2>@ViewData["Title"]</h2>
+
+
+
+<div class="main-container">
+    @{
+        foreach (FactionModel faction in ViewBag.Factions)
+        {
+            <form asp-action="UpdateFaction">
+                <input name="factionNameOld" type="hidden" value="@faction.FactionName">
+                <input name="factionNameNew" type="text" value="@faction.FactionName"/>
+                <input id="Submit" type="submit" value="Update Faction Faction"/>
+            </form>
+        }
+    }
+    <form asp-action="CreateFaction">
+        <input name="factionName" type="text"/>
+        <input id="Submit" type="submit" value="Add Faction" />
+    </form>
+</div>

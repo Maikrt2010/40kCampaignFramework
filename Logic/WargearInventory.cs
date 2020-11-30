@@ -8,7 +8,7 @@ namespace Logic
 {
     public class WargearInventory : IWargearInventory
         {
-            public List<WargearDTO> WargearinInventory;
+            private List<WargearDTO> wargearInventory = new List<WargearDTO>();
             private readonly IWargearRepository wargearRepository;
 
             public WargearInventory(IWargearRepository wargearRepository)
@@ -18,14 +18,25 @@ namespace Logic
             }
 
 
-            public void CreateWargear(string wargearName, FactionDTO faction, List<WargearCategoryDTO> wargearCategories)
+            public void CreateWargear(string wargearName, FactionDTO faction, List<WeaponCategoryDTO> wargearCategories)
             {
                 wargearRepository.CreateWargear(wargearName, faction, wargearCategories);
             }
 
             public List<WargearDTO> GetAllWargears()
             {
-                throw new System.NotImplementedException();
+            wargearInventory = wargearRepository.GetAllWargear();
+            return wargearInventory;
+            }
+
+            public void UpdateAmmount(int wargearid, int ammount)
+            {
+                wargearRepository.UpdateAmmountAvaliable(wargearid, ammount);
+            }
+
+            public void UpdateWargearWeaponCategory(WargearDTO wargear, WeaponCategoryDTO waCategoryDto)
+            {
+                wargearRepository.CreateExtraWeaponCategroyWargear(wargear, waCategoryDto);
             }
         }
     }

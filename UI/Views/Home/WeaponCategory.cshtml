@@ -1,0 +1,27 @@
+﻿@model WeaponCategoryModel
+
+@{
+    ViewData["Title"] = "WeaponCategory";
+}
+
+
+<h2>@ViewData["Title"]</h2>
+
+
+
+<div class="main-container">
+    @{
+        foreach (WeaponCategoryModel weaponCategory in ViewBag.WeaponCategorys)
+        {
+            <form asp-action="UpdateWeaponCategory">
+                <input name="weaponCategoryNameOld" type="hidden" value="@weaponCategory.WeaponCategoryName">
+                <input name="weaponCategoryNameNew" type="text" value="@weaponCategory.WeaponCategoryName"/>
+                <input id="Submit" type="submit" value="Update WeaponCategory WeaponCategory"/>
+            </form>
+        }
+    }
+    <form asp-action="CreateWeaponCategory">
+        <input name="weaponCategoryName" type="text"/>
+        <input id="Submit" type="submit" value="Add WeaponCategory" />
+    </form>
+</div>

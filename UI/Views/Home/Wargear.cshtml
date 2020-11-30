@@ -1,0 +1,74 @@
+﻿@model UI.ViewModel.WargearViewModel
+@{
+    ViewData["Title"] = "Wargear";
+}
+
+<h2>Wargear</h2>
+<h3>Wargear</h3>
+<div class="main-container">
+    @{
+        foreach (WargearModel wargear in Model.Wargear)
+        {
+            <form asp-action="UpdateAmmount">
+                <input name="WargearID" type="hidden" value="@wargear.WargearID">
+                <input type="text" value="@wargear.WargearName" readonly />
+                <input type="text" value="@wargear.FactionBelongTo.FactionName" readonly />
+                <input type="text" value="@wargear.categories()" readonly />
+                <input name="AmmountTotal" type="number" value="@wargear.AmmountTotal" />
+                <input id="Submit" type="submit" value="Update Ammount Avaliable" />
+            </form>
+        }
+    }
+</div>
+<h3>WargearCreate</h3>
+<div class="main-container">
+    <form asp-action="CreateWargear">
+        <input name="wargearName" type="text" value="">
+        <select name="factionName">
+            @{
+                foreach (FactionModel faction in Model.Faction)
+                {
+                    <option value="@faction.FactionName">@faction.FactionName</option>
+                }
+            }
+        </select>
+        <select name="weaponCategoryName">
+            @{
+                foreach (WeaponCategoryModel weaponCategory in Model.WeaponCategory)
+                {
+                    <option value="@weaponCategory.WeaponCategoryName">@weaponCategory.WeaponCategoryName</option>
+                }
+            }
+        </select>
+        <input id="Submit2" type="submit" value="Create Wargear" />
+    </form>
+
+</div>
+<h3>WargearAddWeaponCategory</h3>
+<div class="main-container">
+    <form asp-action="AddWeaponCategoryWargear">
+        @{
+            foreach (var VARIABLE in Model.Wargear)
+            {
+                <input name="WargearID" type="hidden" value="@VARIABLE.WargearID">
+                <select name="wargearName">
+                    @{
+                        foreach (WargearModel wargear in Model.Wargear)
+                        {
+                            <option value="@wargear.WargearName">@wargear.WargearName</option>
+                        }
+                    }
+                </select>
+                <select name="WeaponCategoryName">
+                    @{
+                        foreach (WeaponCategoryModel weaponCategory in Model.WeaponCategory)
+                        {
+                            <option value="@weaponCategory.WeaponCategoryName">@weaponCategory.WeaponCategoryName</option>
+                        }
+                    }
+                </select>
+                <input id="Submit2" type="submit" value="Create Wargear" />
+            }
+        }
+    </form>
+</div>

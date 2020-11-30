@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="IFactionCollection.cs" />
     <Compile Include="IWargearInventory.cs" />
-    <Compile Include="IWeaponCatergoryCollection.cs" />
+    <Compile Include="IWeaponCategoryCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

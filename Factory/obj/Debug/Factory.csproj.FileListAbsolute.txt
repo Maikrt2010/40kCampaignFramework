@@ -1,0 +1,17 @@
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\obj\Debug\Factory.csprojAssemblyReference.cache
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\obj\Debug\Factory.csproj.CoreCompileInputs.cache
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\bin\Debug\Factory.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\bin\Debug\Factory.pdb
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\bin\Debug\DAL.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\bin\Debug\DAL.Interfaces.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\bin\Debug\Domain.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\bin\Debug\Logic.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\bin\Debug\Logic.Interfaces.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\bin\Debug\DAL.Interfaces.pdb
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\bin\Debug\DAL.pdb
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\bin\Debug\Domain.pdb
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\bin\Debug\Logic.Interfaces.pdb
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\bin\Debug\Logic.pdb
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\obj\Debug\Factory.csproj.CopyComplete
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\obj\Debug\Factory.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\Factory\obj\Debug\Factory.pdb

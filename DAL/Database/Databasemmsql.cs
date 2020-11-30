@@ -2,7 +2,7 @@
 {
     public class Databasemmsql
     {
-        public static string connenctionString = "Server=mssql.fhict.local;Database=dbi364823_40k;User Id=dbi364823;Password=NooCyt2094";
+        public static string connenctionString = "Server=mssql.fhict.local;Database=dbi364823_40k;User=dbi364823_40k;Password=NooCyt2094";
 
 
     }

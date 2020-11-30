@@ -1,0 +1,6 @@
+D:\School\Fresh Start\Program\40kCampaignFramework\Domain\bin\Debug\Domain.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\Domain\bin\Debug\Domain.pdb
+D:\School\Fresh Start\Program\40kCampaignFramework\Domain\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\School\Fresh Start\Program\40kCampaignFramework\Domain\obj\Debug\Domain.dll
+D:\School\Fresh Start\Program\40kCampaignFramework\Domain\obj\Debug\Domain.pdb
+D:\School\Fresh Start\Program\40kCampaignFramework\Domain\obj\Debug\DTO.csprojAssemblyReference.cache

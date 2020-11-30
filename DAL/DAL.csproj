@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database\Databasemmsql.cs" />
+    <Compile Include="Models\WargearDal.cs" />
     <Compile Include="MemeryContextInterfaces\IFactionMemoryContext.cs" />
     <Compile Include="MemeryContextInterfaces\IWargearMemoryContext.cs" />
     <Compile Include="MemeryContextInterfaces\IWeaponCategoryMemoryContext.cs" />

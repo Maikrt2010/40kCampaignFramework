@@ -4,31 +4,26 @@ namespace Domain
 {
     public class WargearDTO
     {
-        public int WargearID { get; private set; }
+        public int WargearID { get; protected set; }
         public string WargearName { get; private set; }
+
+        public int AmmountTotal { get; private set; }
 
         public FactionDTO FactionBelongTo { get; private set; }
 
-        public List<WargearCategoryDTO> WargearCategories { get; private set; }
+        public List<WeaponCategoryDTO> WeaponCategories { get; private set; }
 
-        public WargearDTO(int wargearId, string wargearName, FactionDTO factionBelongTo, List<WargearCategoryDTO> wargearCategories)
+        public WargearDTO(int wargearId, string wargearName, int ammountTotal, FactionDTO factionBelongTo, List<WeaponCategoryDTO> weaponCategories)
         {
             WargearID = wargearId;
             WargearName = wargearName;
+            AmmountTotal = ammountTotal;
             FactionBelongTo = factionBelongTo;
-            WargearCategories = wargearCategories;
+            WeaponCategories = weaponCategories;
         }
 
-        public WargearDTO(string wargearName, FactionDTO factionBelongTo, List<WargearCategoryDTO> wargearCategories)
+        protected WargearDTO()
         {
-            WargearName = wargearName;
-            FactionBelongTo = factionBelongTo;
-            WargearCategories = wargearCategories;
-        }
-
-        public WargearDTO()
-        {
-            WargearCategories = new List<WargearCategoryDTO>();
         }
     }
 }

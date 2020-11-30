@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.Interfaces", "DAL.Inter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "Domain\DTO.csproj", "{E0DF9760-51F0-4A91-8A39-43B13ACB16ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnittest Logic", "XUnittest Logic\XUnittest Logic.csproj", "{14989D51-D6CC-416B-82C5-54F33B22209D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{67E26D04-9287-41C7-8E04-2D477665FF5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{E0DF9760-51F0-4A91-8A39-43B13ACB16ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0DF9760-51F0-4A91-8A39-43B13ACB16ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0DF9760-51F0-4A91-8A39-43B13ACB16ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14989D51-D6CC-416B-82C5-54F33B22209D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14989D51-D6CC-416B-82C5-54F33B22209D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14989D51-D6CC-416B-82C5-54F33B22209D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14989D51-D6CC-416B-82C5-54F33B22209D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67E26D04-9287-41C7-8E04-2D477665FF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E26D04-9287-41C7-8E04-2D477665FF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E26D04-9287-41C7-8E04-2D477665FF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E26D04-9287-41C7-8E04-2D477665FF5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

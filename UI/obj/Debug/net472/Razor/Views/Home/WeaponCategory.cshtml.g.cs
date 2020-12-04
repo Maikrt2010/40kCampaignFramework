@@ -85,7 +85,7 @@ Write(ViewData["Title"]);
             WriteLiteral("            ");
             EndContext();
             BeginContext(261, 379, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6cb78a5f30c647db851a7e6ed27e233e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "37ed73f771d64eb287b2c0c77f718093", async() => {
                 BeginContext(301, 67, true);
                 WriteLiteral("\r\n                <input name=\"weaponCategoryNameOld\" type=\"hidden\"");
                 EndContext();
@@ -138,7 +138,7 @@ WriteAttributeValue("", 485, weaponCategory.WeaponCategoryName, 485, 34, false);
             WriteLiteral("    ");
             EndContext();
             BeginContext(664, 181, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "071f952256bc4742a70ed14dcf771da7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2228cff5160c4eee90114f1a15a03113", async() => {
                 BeginContext(704, 134, true);
                 WriteLiteral("\r\n        <input name=\"weaponCategoryName\" type=\"text\"/>\r\n        <input id=\"Submit\" type=\"submit\" value=\"Add WeaponCategory\" />\r\n    ");
                 EndContext();

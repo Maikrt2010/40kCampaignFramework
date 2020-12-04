@@ -95,6 +95,7 @@ namespace UI.Controllers
 
         public IActionResult Wargear()
         {
+            //TODO, Find Better Way of doing this (Potential Mapping?)
             WargearViewModel viewModel = new WargearViewModel();
             List<WargearModel> wargearModels = new List<WargearModel>();
             foreach (var VARIABLE in wargearInventory.GetAllWargears())
@@ -120,18 +121,22 @@ namespace UI.Controllers
 
         public IActionResult CreateWargear()
         {
+            //TODO. Check if code is in correct Layer.
             List<WeaponCategoryDTO> weaponCategory = new List<WeaponCategoryDTO>();
-            foreach (var VARIABLE in weaponCategoryCollection.GetAllWeaponCategorys())
+            foreach (WeaponCategoryDTO VARweaponCategory in weaponCategoryCollection.GetAllWeaponCategorys())
             {
-                if (VARIABLE.WeaponCategoryName == Convert.ToString(HttpContext.Request.Form["factionName"]))
+                if (VARweaponCategory.WeaponCategoryName == Convert.ToString(HttpContext.Request.Form["weaponCategoryName"]))
                 {
-                    weaponCategory.Add(VARIABLE);
+                    weaponCategory.Add(VARweaponCategory);
                 }
             }
             FactionDTO faction = new FactionDTO();
-            foreach (var VARIABLE in factionCollection.GetAllFactions())
+            foreach (FactionDTO Varfaction in factionCollection.GetAllFactions())
             {
-                faction = VARIABLE;
+                if (Varfaction.FactionName== Convert.ToString(HttpContext.Request.Form["factionName"]))
+                {
+                    faction = Varfaction;
+                }
             }
             wargearInventory.CreateWargear(Convert.ToString(HttpContext.Request.Form["wargearName"]), faction, weaponCategory);
             return RedirectToAction("Wargear", "Home");

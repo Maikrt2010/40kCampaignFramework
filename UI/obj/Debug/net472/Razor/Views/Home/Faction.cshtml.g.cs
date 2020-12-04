@@ -85,7 +85,7 @@ Write(ViewData["Title"]);
             WriteLiteral("            ");
             EndContext();
             BeginContext(226, 316, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6114857dfdfa4c0ba9d34abccde3b49f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ee08440749cf4c978396c6b6fbaa951c", async() => {
                 BeginContext(259, 60, true);
                 WriteLiteral("\r\n                <input name=\"factionNameOld\" type=\"hidden\"");
                 EndContext();
@@ -138,7 +138,7 @@ WriteAttributeValue("", 415, faction.FactionName, 415, 20, false);
             WriteLiteral("    ");
             EndContext();
             BeginContext(566, 160, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6b88fae2f0ba484a82ae7abb55f94a50", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "493e251f23794a839f0bf335bcf1897b", async() => {
                 BeginContext(599, 120, true);
                 WriteLiteral("\r\n        <input name=\"factionName\" type=\"text\"/>\r\n        <input id=\"Submit\" type=\"submit\" value=\"Add Faction\" />\r\n    ");
                 EndContext();

@@ -74,7 +74,7 @@ using UI.Models;
             WriteLiteral("            ");
             EndContext();
             BeginContext(237, 562, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70e178e917854a2ebeabde6f670dba01", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5f3ef6e10f094e9682036f3b981fb452", async() => {
                 BeginContext(270, 55, true);
                 WriteLiteral("\r\n                <input name=\"WargearID\" type=\"hidden\"");
                 EndContext();
@@ -157,7 +157,7 @@ WriteAttributeValue("", 667, wargear.AmmountTotal, 667, 21, false);
             WriteLiteral("</div>\r\n<h3>WargearCreate</h3>\r\n<div class=\"main-container\">\r\n    ");
             EndContext();
             BeginContext(885, 784, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "95e107260ecf4351aed665a7fe5fc373", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2ac20860091541babfed125f3e96d609", async() => {
                 BeginContext(918, 96, true);
                 WriteLiteral("\r\n        <input name=\"wargearName\" type=\"text\" value=\"\">\r\n        <select name=\"factionName\">\r\n");
                 EndContext();
@@ -172,7 +172,7 @@ WriteAttributeValue("", 667, wargear.AmmountTotal, 667, 21, false);
                 WriteLiteral("                    ");
                 EndContext();
                 BeginContext(1134, 66, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fde1e834e35f47709aa9c347a3141c75", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d96e53888e9d46ee97d21b82db702ad2", async() => {
                     BeginContext(1172, 19, false);
 #line 31 "D:\School\Fresh Start\Program\40kCampaignFramework\UI\Views\Home\Wargear.cshtml"
                                                     Write(faction.FactionName);
@@ -224,7 +224,7 @@ WriteAttributeValue("", 667, wargear.AmmountTotal, 667, 21, false);
                 WriteLiteral("                    ");
                 EndContext();
                 BeginContext(1440, 94, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "867741bfeab54a198b9dbe578547b25b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3afc752ab76b49b49cc8b31b735ffba2", async() => {
                     BeginContext(1492, 33, false);
 #line 39 "D:\School\Fresh Start\Program\40kCampaignFramework\UI\Views\Home\Wargear.cshtml"
                                                                   Write(weaponCategory.WeaponCategoryName);
@@ -285,7 +285,7 @@ WriteAttributeValue("", 667, wargear.AmmountTotal, 667, 21, false);
             WriteLiteral("\r\n\r\n</div>\r\n<h3>WargearAddWeaponCategory</h3>\r\n<div class=\"main-container\">\r\n    ");
             EndContext();
             BeginContext(1750, 1064, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f1b2fabc6c3244e8bc4cd43ed2ad8375", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c24f8e6f92b54326a2e637bf2d2cfd11", async() => {
                 BeginContext(1794, 2, true);
                 WriteLiteral("\r\n");
                 EndContext();
@@ -320,7 +320,7 @@ WriteAttributeValue("", 1937, VARIABLE.WargearID, 1937, 19, false);
                 WriteLiteral("                            ");
                 EndContext();
                 BeginContext(2157, 66, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d6380f5a4b9f40bf8efd28b998d2cfa9", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8fdee98546824d289d9cdeb6aef6069b", async() => {
                     BeginContext(2195, 19, false);
 #line 58 "D:\School\Fresh Start\Program\40kCampaignFramework\UI\Views\Home\Wargear.cshtml"
                                                             Write(wargear.WargearName);
@@ -372,7 +372,7 @@ WriteAttributeValue("", 1937, VARIABLE.WargearID, 1937, 19, false);
                 WriteLiteral("                            ");
                 EndContext();
                 BeginContext(2527, 94, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "38d98d29b2424adebd7f023c1026989c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "358fc3b91f214dfdbafe9b924b2f4e33", async() => {
                     BeginContext(2579, 33, false);
 #line 66 "D:\School\Fresh Start\Program\40kCampaignFramework\UI\Views\Home\Wargear.cshtml"
                                                                           Write(weaponCategory.WeaponCategoryName);

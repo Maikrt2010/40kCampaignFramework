@@ -1,20 +1,19 @@
 {
   "format": 1,
   "restore": {
-    "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\UI\\UI.csproj": {}
+    "C:\\School\\S2 AD\\40kCampaignFramework\\UI\\UI.csproj": {}
   },
   "projects": {
-    "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj": {
-      "version": "1.0.0",
+    "C:\\School\\S2 AD\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj",
+        "projectUniqueName": "C:\\School\\S2 AD\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj",
         "projectName": "DAL.Interfaces",
-        "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj",
+        "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Domain\\DTO.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Domain\\DTO.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\Domain\\DTO.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Domain\\DTO.csproj"
               }
             }
           }
@@ -24,20 +23,19 @@
         "net472": {}
       }
     },
-    "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL\\DAL.csproj": {
-      "version": "1.0.0",
+    "C:\\School\\S2 AD\\40kCampaignFramework\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\School\\S2 AD\\40kCampaignFramework\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL\\DAL.csproj",
+        "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\DAL\\DAL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj"
               },
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Domain\\DTO.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Domain\\DTO.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\Domain\\DTO.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Domain\\DTO.csproj"
               }
             }
           }
@@ -47,40 +45,43 @@
         "net472": {}
       }
     },
-    "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Domain\\DTO.csproj": {
-      "version": "1.0.0",
+    "C:\\School\\S2 AD\\40kCampaignFramework\\Domain\\DTO.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Domain\\DTO.csproj",
+        "projectUniqueName": "C:\\School\\S2 AD\\40kCampaignFramework\\Domain\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Domain\\DTO.csproj"
+        "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Domain\\DTO.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Factory\\Factory.csproj": {
-      "version": "1.0.0",
+    "C:\\School\\S2 AD\\40kCampaignFramework\\Factory\\Factory.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Factory\\Factory.csproj",
+        "projectUniqueName": "C:\\School\\S2 AD\\40kCampaignFramework\\Factory\\Factory.csproj",
         "projectName": "Factory",
-        "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Factory\\Factory.csproj",
+        "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Factory\\Factory.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj"
               },
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL\\DAL.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\DAL\\DAL.csproj"
               },
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Domain\\DTO.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Domain\\DTO.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\Domain\\DTO.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Domain\\DTO.csproj"
               },
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj"
               },
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic\\Logic.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic\\Logic.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\Logic\\Logic.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Logic\\Logic.csproj"
               }
             }
           }
@@ -90,17 +91,16 @@
         "net472": {}
       }
     },
-    "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj": {
-      "version": "1.0.0",
+    "C:\\School\\S2 AD\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj",
+        "projectUniqueName": "C:\\School\\S2 AD\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj",
         "projectName": "Logic.Interfaces",
-        "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj",
+        "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Domain\\DTO.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Domain\\DTO.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\Domain\\DTO.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Domain\\DTO.csproj"
               }
             }
           }
@@ -110,23 +110,22 @@
         "net472": {}
       }
     },
-    "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic\\Logic.csproj": {
-      "version": "1.0.0",
+    "C:\\School\\S2 AD\\40kCampaignFramework\\Logic\\Logic.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic\\Logic.csproj",
+        "projectUniqueName": "C:\\School\\S2 AD\\40kCampaignFramework\\Logic\\Logic.csproj",
         "projectName": "Logic",
-        "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic\\Logic.csproj",
+        "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Logic\\Logic.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\DAL.Interfaces\\DAL.Interfaces.csproj"
               },
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Domain\\DTO.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Domain\\DTO.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\Domain\\DTO.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Domain\\DTO.csproj"
               },
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj"
               }
             }
           }
@@ -136,37 +135,40 @@
         "net472": {}
       }
     },
-    "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\UI\\UI.csproj": {
+    "C:\\School\\S2 AD\\40kCampaignFramework\\UI\\UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\UI\\UI.csproj",
+        "projectUniqueName": "C:\\School\\S2 AD\\40kCampaignFramework\\UI\\UI.csproj",
         "projectName": "UI",
-        "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\UI\\UI.csproj",
+        "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\UI\\UI.csproj",
         "packagesPath": "C:\\Users\\Maike\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\UI\\obj\\",
+        "outputPath": "C:\\School\\S2 AD\\40kCampaignFramework\\UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Maike\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net472"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net472": {
+            "targetAlias": "net472",
             "projectReferences": {
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Factory\\Factory.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Factory\\Factory.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\Factory\\Factory.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Factory\\Factory.csproj"
               },
-              "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj": {
-                "projectPath": "D:\\School\\Fresh Start\\Program\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj"
+              "C:\\School\\S2 AD\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj": {
+                "projectPath": "C:\\School\\S2 AD\\40kCampaignFramework\\Logic.Interfaces\\Logic.Interfaces.csproj"
               }
             }
           }
@@ -179,6 +181,7 @@
       },
       "frameworks": {
         "net472": {
+          "targetAlias": "net472",
           "dependencies": {
             "Microsoft.AspNetCore": {
               "target": "Package",
@@ -223,7 +226,7 @@
               "version": "[2.1.10, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
